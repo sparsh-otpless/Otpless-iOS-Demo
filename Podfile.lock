@@ -1,0 +1,16 @@
+PODS:
+  - OtplessSDK (2.0.3)
+
+DEPENDENCIES:
+  - OtplessSDK (= 2.0.3)
+
+SPEC REPOS:
+  trunk:
+    - OtplessSDK
+
+SPEC CHECKSUMS:
+  OtplessSDK: 55c03c841b975fafdcdd6f64c8381c75e987ecbf
+
+PODFILE CHECKSUM: 163e3cb3cacb041a01765f4eb260bb163e8fdf2b
+
+COCOAPODS: 1.13.0
