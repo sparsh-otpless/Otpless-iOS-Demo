@@ -59,8 +59,7 @@ class ViewController: UIViewController, onResponseDelegate {
             // Handle tap action for startOtplessButton
         Otpless.sharedInstance.delegate = self
         var initialParams = [String:Any]()
-        initialParams["cid"] = "ef0kpz5g" // Replace with your cid. 
-        initialParams["uxmode"] = "anf" // Add this code to enable autoclick mode
+        initialParams["cid"] = "ef0kpz5g" // Replace with your cid.
         var params =  [String:Any]()
         params["method"] = "get"
         params["params"] = initialParams
