@@ -60,6 +60,7 @@ class ViewController: UIViewController, onResponseDelegate {
         Otpless.sharedInstance.delegate = self
         var initialParams = [String:Any]()
         initialParams["cid"] = "ef0kpz5g" // Replace with your cid.
+        initialParams["login_uri"] = "com.yudi.app.otpless://otpless" // add your bundle identifier here without any '_' or uppercase character or special character and replace com.yudi.app with your bundle identifier. Use this same login_uri in info.plist.
         var params =  [String:Any]()
         params["method"] = "get"
         params["params"] = initialParams

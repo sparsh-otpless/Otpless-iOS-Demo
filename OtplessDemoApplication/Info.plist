@@ -11,7 +11,7 @@
 			<string>otpless</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>$(PRODUCT_BUNDLE_IDENTIFIER).otpless</string>
+				<string>com.yudi.app.otpless</string>
 			</array>
 		</dict>
 	</array>
