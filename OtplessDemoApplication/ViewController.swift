@@ -22,6 +22,11 @@ class ViewController: UIViewController, onResponseDelegate {
 
     }
     
+    // Check whether whatsapp is installed or not
+    func isWhatsappInstalled() -> Bool{
+        return Otpless.sharedInstance.isWhatsappInstalled()
+    }
+    
 
     private var nameLabel: UILabel!
     private var numberlabel: UILabel!
@@ -29,6 +34,9 @@ class ViewController: UIViewController, onResponseDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        print("Is whatsapp installed : \(isWhatsappInstalled())")
 
         setupUI()
         setupConstraints()
